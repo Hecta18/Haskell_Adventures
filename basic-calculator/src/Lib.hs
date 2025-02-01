@@ -4,7 +4,7 @@ module Lib
     , multiplicacion
     , division
     ) where
-import Text.XHtml (base)
+-- import Text.XHtml (base)
 
 -- someFunc :: IO ()
 -- someFunc = putStrLn "someFunc"

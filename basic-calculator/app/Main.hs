@@ -1,11 +1,10 @@
 module Main (main) where
 
-import Lib (sumar, resta, multiplicar, dividir)
-import GHC.Float (divideDouble)
+import Lib (suma, resta, multiplicacion, division)
 
 main :: IO ()
 main = do
-    print (sumar 5 6)
+    print (suma 5 6)
     print (resta 5 6)
-    print (multiplicar 5 6)
-    print (dividir 5 6)
+    print (multiplicacion 5 6)
+    print (division 5 6)
